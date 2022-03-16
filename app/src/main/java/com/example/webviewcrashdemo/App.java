@@ -9,6 +9,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
 
+        //this line caused the crash
         WebView.setWebContentsDebuggingEnabled(false);
     }
 }
